@@ -93,10 +93,10 @@
 // function add() {
 //     console.log("hello")
 // }
-
 // add();
 
-// function add(a) { //para 
+
+// function add(a=10) { //para 
 //     console.log(a) 
 // }
 // add(10); //arg
@@ -107,6 +107,8 @@
 //     console.log(a) 
 // }
 // add(10,{"key":"val"},30); //arg
+
+
 
 // function add(b,...a){
 //     console.log(b);
@@ -122,7 +124,7 @@
 // console.log(result)
 
 
-
+//arrow fun
 // const result =  (a,b)=> {
 //     return b;
 // }
@@ -150,13 +152,24 @@
 //         return "age"
 //     }
 // }
+
 // console.log(obj["key"])
 // console.log(obj["first name"])
 // console.log(obj.age());
 
-const arr = ["hello", "one", { "firstname": "helo", "secondName": "surname" }, [120, 140, [3, 2, 1]]]
+// const arr = ["hello", "one", { "firstname": "helo", "secondName": "surname" }, [120, 140, [3, 2, 1]]]
 
 // console.log(arr[2]["firstname"])
 //console.log(arr[3][2])
-console.log(arr[3][2][2])
+// console.log(arr[3][2][2])
 
+//milk elaji tea powder sugar 
+let milk = 100
+let elaji = 1
+let teapowder = 1
+let sugar = 10
+let count = 40
+
+let tea = (count * (milk * elaji * teapowder * sugar) / 1000)
+
+console.log(tea);
