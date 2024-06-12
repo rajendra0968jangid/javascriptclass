@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.mainDiv {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+#result {
+  background-color: #333;
+  color: white;
+  text-align: right;
+  padding: 20px;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5em;
+  margin: 5px 0;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #e0e0e0;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #bbb;
+}
+
+button.equal {
+  height: 100%;
+  background-color: #4caf50;
+  color: white;
+  font-size: 2em;
+}
+
+button.equal:hover {
+  background-color: #45a049;
+}

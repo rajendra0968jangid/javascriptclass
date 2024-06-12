@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainDiv">
+      <div>
+        <p id="result">0</p>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <td><button value="+" onclick="appendCharacter('+')">+</button></td>
+            <td><button value="-" onclick="appendCharacter('-')">-</button></td>
+            <td><button value="*" onclick="appendCharacter('*')">*</button></td>
+            <td><button value="/" onclick="appendCharacter('/')">/</button></td>
+          </tr>
+          <tr>
+            <td><button value="7" onclick="appendCharacter('7')">7</button></td>
+            <td><button value="8" onclick="appendCharacter('8')">8</button></td>
+            <td><button value="9" onclick="appendCharacter('9')">9</button></td>
+            <td rowspan="4">
+              <button class="equal" onclick="calculateResult()">=</button>
+            </td>
+          </tr>
+          <tr>
+            <td><button value="4" onclick="appendCharacter('4')">4</button></td>
+            <td><button value="5" onclick="appendCharacter('5')">5</button></td>
+            <td><button value="6" onclick="appendCharacter('6')">6</button></td>
+          </tr>
+          <tr>
+            <td><button value="1" onclick="appendCharacter('1')">1</button></td>
+            <td><button value="2" onclick="appendCharacter('2')">2</button></td>
+            <td><button value="3" onclick="appendCharacter('3')">3</button></td>
+          </tr>
+          <tr>
+            <td><button value="0" onclick="appendCharacter('0')">0</button></td>
+            <td><button value="." onclick="appendCharacter('.')">.</button></td>
+            <td><button onclick="clearDisplay()">C</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
